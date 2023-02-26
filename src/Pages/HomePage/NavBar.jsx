@@ -16,7 +16,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import navbar from "../../Styles/HomeNavbar.module.css";
-import bumBlebee from "..//..//Assets/bumBlebee.jpg";
+import bumBlebee from "..//..//Assets/logo_car.png";
 import React, { useEffect, useState } from "react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { GiTwoCoins } from "react-icons/gi";
@@ -47,22 +47,9 @@ const Navbar = () => {
 
   const { name, isAuth, logoutUser } = useContext(AuthContext);
 
-  // const isAuth = useSelector((state) => state.AuthReducer.isAuth);
-
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  // let isAuth = true;
-  // const handleLogout = () => {};
-
-  // const handleLogin = () => {};
-
-  //   useEffect(() => {
-  //
-  //   }, [ dispatch]);
-
-  // let HostClick = () => {
-  //   <Navigate to="/hostpage" />;
-  // };
+ 
 
   return (
     <>

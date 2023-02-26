@@ -14,7 +14,7 @@ const Poster1 = () => {
           }}
         >
           <img
-            src="https://www.zoomcar.com/img/hero-banner-web.png"
+            src="https://www.zoomcar.com/img/web_banner.jpg"
             alt="d"
             // style={{ height: "100%", width: "100%" }}
             height={{ lg: "100%", md: "80%", sm: "60%" }}
